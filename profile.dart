@@ -127,7 +127,7 @@ class _ProfileScreenState extends State<ProfileScreen>
                       onPressed: () {
                         setState(() {
                           if (canEditName) {
-                            // Validation
+                  
                             if (nameController.text.isEmpty) {
                               nameHasError = true;
                               shake(nameShake);
